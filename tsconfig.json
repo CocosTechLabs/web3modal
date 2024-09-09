@@ -24,7 +24,7 @@
     "noUncheckedIndexedAccess": true,
     "verbatimModuleSyntax": true,
     "sourceMap": true,
-    "incremental": true
+    // "incremental": true
   },
   "exclude": ["node_modules", "dist", "types", "out", ".next", ".turbo", "coverage"]
 }

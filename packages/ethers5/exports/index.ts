@@ -14,6 +14,8 @@ export { defaultConfig } from '@web3modal/base/adapters/evm/ethers5'
 type EthersAppKitOptions = Omit<AppKitOptions<Chain>, 'adapters' | 'sdkType' | 'sdkVersion'> &
   AdapterOptions
 
+export { AppKit } from '@web3modal/base'
+
 export function createWeb3Modal(options: EthersAppKitOptions) {
   const ethers5Adapter = new EVMEthers5Client({
     ethersConfig: options.ethersConfig,
